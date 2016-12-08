@@ -12,7 +12,7 @@ pub fn foo<T>() {
 
 mod submod {
     pub trait SomeTrait {
-        fn snap(&self) {
+        fn bar(&self) {
             debug_assert!(true);
         }
     }
